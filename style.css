@@ -1,0 +1,47 @@
+/* Fonts */
+
+:root {
+  --bg: #F5F4F3;
+  --fg: #160B08;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  font-family: 'Jost', sans-serif;
+  font-kerning: normal;
+  font-size: 10px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 0 auto;
+  max-width: 84rem;
+  padding: 3rem 1.8rem 0;
+}
+
+body > *,
+main > * {
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
