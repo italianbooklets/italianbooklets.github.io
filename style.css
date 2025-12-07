@@ -45,3 +45,26 @@ h1 {
 img {
   width: 100%;
 }
+
+
+/* begin: make footer stick to the bottom */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-bottom: unset;
+  padding-bottom: 2.4rem;
+}
+/* end: make footer stick to the bottom */
