@@ -9,7 +9,7 @@ layout: default
 ## {{ lang.lang }}
 
 {% if lang.booklet %}
-[Booklet]({{ lang.booklet }})
+[Booklet](assets/booklets/{{ lang.booklet }})
 {% endif %}
 
 {% if lang.audio %}
