@@ -8,9 +8,13 @@ layout: default
 
 ## {{ lang.lang }}
 
+{% if lang.booklet %}
 [Booklet]({{ lang.booklet }})
+{% endif %}
 
+{% if lang.audio %}
 [Audio]({{ lang.audio }})
+{% endif %}
 
 {% endfor %}
 

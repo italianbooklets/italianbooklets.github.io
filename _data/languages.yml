@@ -1,32 +1,16 @@
-- lang: Arabo
-  booklet: ''
-  audio: ''
-
 - lang: Bengali
-  booklet: ''
-  audio: ''
-
-- lang: Dari
-  booklet: ''
-  audio: ''
-
-- lang: Hindi
-  booklet: ''
-  audio: ''
-
-- lang: Inglese
-  booklet: ''
-  audio: ''
+  booklet: 'assets/booklets/Italian___English___Bengali.pdf'
+  audio:
 
 - lang: Nepalese
-  booklet: ''
-  audio: ''
+  booklet: 'assets/booklets/Italian___English___Nepali.pdf'
+  audio:
 
 - lang: Pashto
-  booklet: ''
-  audio: ''
+  booklet: 'assets/booklets/Italian___English___Pashto.pdf'
+  audio:
 
 - lang: Urdu
-  booklet: ''
-  audio: ''
+  booklet: 'assets/booklets/Italian___English___Urdu.pdf'
+  audio:
 
