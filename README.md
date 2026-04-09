@@ -37,12 +37,12 @@ $ git clone https://github.com/italianbooklets/italianbooklets.github.io
 
 Change into the cloned directory.
 ```
-cd italianbooklets.github.io
+$ cd italianbooklets.github.io
 ```
 
 Build the site and serve it locally on [http://localhost:4000](http://localhost:4000).
 ```
-bundle exec jekyll serve
+$ bundle exec jekyll serve
 ```
 
 Any changes to source files will prompt a rebuild, and you can see the new
@@ -50,17 +50,17 @@ version by refreshing the page.
 
 ## Adding a new booklet
 
-Booklet PDFs are contained in the directory `assets/booklets`. Other
+Booklet PDFs are contained in the directory `assets/booklets/`. Other
 information about booklets is contained in the file `_data/languages.yml`. For
 example, the Nepalese booklet is saved as `Italian___English___Nepali.pdf` in
-the `assets/booklets` directory, and its corresponding section in
+the `assets/booklets/` directory, and its corresponding section in
 `languages.yml` is as follows.
-```
+```yml
 - lang: Nepalese
   booklet: 'Italian___English___Nepali.pdf'
 ```
 
-To add a new booklet, copy its PDF file to `assets/booklets` and add a section
+To add a new booklet, copy its PDF file to `assets/booklets/` and add a section
 to the `_data/languages.yml` file whose `lang` field is set to the new language
 and `booklet` field is set to the file name of the PDF. When the website is
 rebuilt, a new section will automatically be added to the main page.
@@ -69,6 +69,6 @@ rebuilt, a new section will automatically be added to the main page.
 
 Updating an existing booklet can be as simple as replacing the old PDF file
 with a new one which has the same name as before. If the new file has a
-different name (indicating version number), then its `booklet` entry in
-`_data/languages.yml` should also be updated to the new file name.
+different name (indicating version number, perhaps), then its `booklet` entry in
+`_data/languages.yml` should also be updated to the new file name (see above).
 
